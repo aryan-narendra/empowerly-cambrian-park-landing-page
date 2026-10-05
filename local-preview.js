@@ -64,8 +64,7 @@
     const track = carousel.querySelector('.local-school-track');
     const card = track.querySelector('.local-school-card');
     const gap = parseFloat(getComputedStyle(track).gap) || 0;
-    const visible = matchMedia('(max-width: 600px)').matches ? 1 : 2;
-    track.scrollBy({left: direction * (card.offsetWidth + gap) * visible, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+    track.scrollBy({left: direction * (card.getBoundingClientRect().width + gap), behavior: 'smooth'});
   }
   document.addEventListener('keydown', event => {
     if (!event.target.matches?.('.local-school-track') || !['ArrowLeft','ArrowRight'].includes(event.key)) return;

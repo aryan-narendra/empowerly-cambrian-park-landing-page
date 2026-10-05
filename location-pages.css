@@ -97,10 +97,11 @@ nav.sticky a[href="/consult"] { display: none; }
 .local-conversion-layout { display: block; padding-block: 32px; }
 .local-schools h2, .local-events h2 { font-size: 30px; }
 .local-section-description { font-size: 14px; }
-.local-school-track { display: flex; gap: 20px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 2px 0 10px; }
+.local-school-track { display: flex; gap: 20px; overflow-x: auto; overscroll-behavior-x: contain; scroll-behavior: smooth; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 2px 0 10px; }
+.local-school-card { scroll-snap-stop: always; }
 .local-school-track::-webkit-scrollbar { display: none; }
 .local-school-track:focus-visible { outline: 3px solid #d9b62d; outline-offset: 4px; border-radius: 12px; }
-.local-school-card { flex: 0 0 calc((100% - 20px) / 2); scroll-snap-align: start; box-shadow: 0 4px 14px #0012420a; }
+.local-school-card { flex: 0 0 calc((100% - 40px) / 2.15); scroll-snap-align: start; box-shadow: 0 4px 14px #0012420a; }
 .local-school-photo { height: 210px; }
 .local-school-body { padding: 18px 20px 20px; }
 .local-school-card h3 { font-size: 18px; min-height: 0; }

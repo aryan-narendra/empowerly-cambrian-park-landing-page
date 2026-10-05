@@ -1,6 +1,7 @@
 """Package the captured frontend for static hosting under a project subpath."""
 from pathlib import Path
 import argparse
+import hashlib
 import json
 import re
 import shutil
@@ -29,6 +30,10 @@ for request in sorted((ROOT / 'data').glob('*.request.json')):
     records.append({'operationName': payload.get('operationName'), 'variables': payload.get('variables', {}), 'response': json.loads(response.read_text(encoding='utf-8'))})
 static_data = {'basePath': prefix, 'records': records}
 (output / 'static-page-data.js').write_text('window.__EMPOWERLY_STATIC__=' + json.dumps(static_data, ensure_ascii=False).replace('</', '<\\/') + ';', encoding='utf-8')
+asset_versions = {
+    name: hashlib.sha256((output / name).read_bytes()).hexdigest()[:12]
+    for name in ('location-pages.css', 'local-preview.js', 'static-page-data.js')
+}
 
 local_roots = ('_next/', 'assets/', 'fonts/', 'location-pages.css', 'local-preview.js', 'empowerly-icon.png', 'empowerly-footer-logo.svg')
 for path in output.rglob('*'):
@@ -41,6 +46,8 @@ for path in output.rglob('*'):
             text = text.replace('/' + stem, prefix + '/' + stem)
     if path.suffix == '.html':
         text = text.replace('<script src="' + prefix + '/local-preview.js">', '<script src="' + prefix + '/static-page-data.js"></script><script src="' + prefix + '/local-preview.js">')
+        for name, version in asset_versions.items():
+            text = text.replace(prefix + '/' + name, prefix + '/' + name + '?v=' + version)
         # Next's original font stylesheet still contains the public CDN URLs;
         # the captured HTML and bundles point to the local copies above.
     path.write_text(text, encoding='utf-8')

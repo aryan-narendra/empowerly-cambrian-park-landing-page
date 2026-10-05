@@ -1,0 +1,1 @@
+Replaces easy-to-miss flip tiles with a livelier photo carousel, visible admissions data, arrows and mobile swiping; restores numeric metrics, moves events below schools, and keeps the consultation pitch at the bottom.

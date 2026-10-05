@@ -1,0 +1,142 @@
+/* Shared layout for the two location page drafts. */
+html { scroll-behavior: smooth; }
+.local-shell { width: min(1200px, calc(100% - 48px)); margin-inline: auto; }
+.local-hero { background: #001242; color: white; }
+.local-hero-layout { display: grid; grid-template-columns: minmax(0, 1fr) 290px; gap: 56px; padding-block: 38px; align-items: center; }
+.local-eyebrow { display: inline-block; margin: 0 0 12px; padding: 5px 12px; background: #ffe969; color: #151e70; font: 700 11px/1.25 Montserrat, sans-serif; letter-spacing: 1.2px; text-transform: uppercase; }
+.local-hero h1 { margin: 0; max-width: 830px; font: 600 clamp(32px, 3.6vw, 46px)/1.08 Adelle, serif; letter-spacing: -1.25px; color: white; }
+.local-hero-description { max-width: 740px; margin: 15px 0 20px; color: #e0e5f1; font-size: 16px; line-height: 1.6; }
+.local-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.local-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 43px; padding: 11px 20px; border: 2px solid #151e70; border-radius: 999px; background: #151e70; color: white; font: 700 11px/1.4 Montserrat, sans-serif; letter-spacing: .35px; text-transform: uppercase; text-decoration: none; transition: background .2s, box-shadow .2s; }
+.local-button:hover { background: #26348c; box-shadow: 0 4px 12px #00124222; }
+.local-button:focus-visible, .local-photo-credits summary:focus-visible { outline: 3px solid #e1b832; outline-offset: 4px; }
+.local-button-white { border-color: white; background: white; color: #151e70; }
+.local-button-white:hover { background: #ffe969; }
+.local-button-outline { border-color: white; background: transparent; color: white; }
+.local-button-outline:hover { background: #ffffff14; }
+.local-stat-card { border: 1px solid #ffffff18; border-radius: 16px; padding: 20px 24px; background: #151e70; }
+.local-stat { display: grid; grid-template-columns: 88px 1fr; gap: 13px; align-items: center; padding-block: 12px; }
+.local-stat + .local-stat { border-top: 1px solid #ffffff20; }
+.local-stat strong { font-size: 25px; line-height: 1.1; letter-spacing: -1px; }
+.local-stat span { font-size: 12px; line-height: 1.55; color: #e3e8fa; }
+.local-conversion-layout { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(320px, 1fr); align-items: start; gap: 28px; padding-block: 30px 38px; }
+.local-schools { order: 1; min-width: 0; }
+.local-section-eyebrow { margin: 0 0 5px; color: #526285; font-size: 10px; line-height: 1.3; letter-spacing: 1.6px; font-weight: 700; text-transform: uppercase; }
+.local-schools h2, .local-events h2 { margin: 0; color: #001242; font: 600 26px/1.2 Adelle, serif; letter-spacing: -.45px; }
+.local-section-description { margin: 9px 0 17px; color: #5b6477; font-size: 12px; line-height: 1.55; }
+.local-school-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.local-school-card { overflow: hidden; border: 1px solid #e3e7ef; border-radius: 12px; background: white; }
+.local-school-photo { display: block; width: 100%; height: 112px; object-fit: cover; background: #eef1f5; }
+.local-school-photo-castilleja { object-position: 50% 57%; }
+.local-school-photo-branham { object-position: 50% 38%; }
+.local-school-photo-cambrian-academy { object-position: 50% 25%; }
+.local-school-body { padding: 13px 15px 15px; }
+.local-school-topline { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; margin-bottom: 8px; }
+.local-school-card h3 { margin: 0; color: #001242; font-size: 14px; line-height: 1.4; font-weight: 700; }
+.local-sample-badge { display: inline-block; color: #625012; background: #fff4c4; padding: 2px 6px; border-radius: 4px; font-size: 9px; font-weight: 600; line-height: 1.4; }
+.local-school-results { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; }
+.local-school-results li { display: grid; grid-template-columns: 29px minmax(0, 1fr); align-items: baseline; gap: 5px; font-size: 11px; line-height: 1.5; color: #576174; }
+.local-school-results strong { color: #151e70; font-size: 20px; line-height: 1.2; font-weight: 700; }
+.local-school-results span { min-width: 0; }
+.local-results-note { margin: 12px 0 0; font-size: 10px; line-height: 1.55; color: #737b8c; }
+.local-photo-credits { margin-top: 8px; color: #737b8c; font-size: 10px; line-height: 1.6; }
+.local-photo-credits summary { width: max-content; cursor: pointer; }
+.local-photo-credits ul { margin: 8px 0 0; padding-left: 16px; }
+.local-photo-credits a { color: #3c5282; text-decoration: underline; }
+.local-events { order: 2; position: sticky; top: 84px; padding: 22px; border: 1px solid #e2e7f0; border-radius: 16px; background: #f7f8fc; scroll-margin-top: 86px; }
+.local-events .local-section-description { margin-bottom: 14px; }
+.local-calendar { overflow: hidden; border: 1px solid #e6e9ef; border-radius: 9px; background: white; }
+.local-calendar iframe { display: block; width: 100%; height: 320px; border: 0; }
+.local-event-button { display: flex; width: 100%; margin-top: 16px; }
+.local-event-note { margin: 10px 0 0; color: #687289; text-align: center; font-size: 10px; line-height: 1.55; }
+/* The original desktop menu is wider than tablet viewports. */
+@media (min-width: 768px) and (max-width: 1023px) {
+  nav.sticky > .trim-container > [class~="md:flex"] { display: none; }
+  nav.sticky > .trim-container > button[class~="md:hidden"] { display: flex; }
+  nav.sticky > div[class~="md:hidden"] { display: block; }
+}
+@media (max-width: 900px) {
+  .local-shell { width: calc(100% - 32px); }
+  .local-hero-layout { grid-template-columns: 1fr; gap: 22px; padding-block: 28px; }
+  .local-hero h1 { max-width: 720px; font-size: 36px; }
+  .local-stat-card { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 12px 16px; }
+  .local-stat { display: block; padding: 0 12px; }
+  .local-stat + .local-stat { border-top: 0; border-left: 1px solid #ffffff20; }
+  .local-stat strong { display: block; margin-bottom: 5px; font-size: 22px; }
+  .local-stat span { font-size: 10px; }
+  .local-conversion-layout { grid-template-columns: 1fr; gap: 26px; padding-block: 22px 30px; }
+  .local-events { order: 1; position: static; padding: 20px; }
+  .local-schools { order: 2; }
+  .local-calendar iframe { height: 320px; }
+  .local-school-photo { height: 145px; }
+}
+@media (max-width: 480px) {
+  .local-calendar iframe { height: 360px; }
+  .local-hero h1 { font-size: 32px; letter-spacing: -.7px; }
+  .local-eyebrow { font-size: 9px; letter-spacing: .8px; }
+  .local-hero-description { font-size: 13px; }
+  .local-button { padding: 10px 15px; font-size: 10px; }
+  .local-stat-card { padding: 12px 6px; }
+  .local-stat { padding: 0 8px; }
+  .local-stat strong { font-size: 20px; }
+  .local-stat span { font-size: 9px; }
+  .local-school-grid { gap: 12px; }
+  .local-school-photo { height: 96px; }
+  .local-school-body { padding: 10px; }
+  .local-school-card h3 { font-size: 12px; min-height: 34px; }
+  .local-school-topline { margin-bottom: 7px; }
+  .local-school-results li { grid-template-columns: 23px minmax(0, 1fr); font-size: 10px; gap: 2px; }
+  .local-school-results strong { font-size: 18px; }
+  .local-schools h2, .local-events h2 { font-size: 24px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Photo carousel and the requested schools → events → consultation order. */
+nav.sticky a[href="/consult"] { display: none; }
+.local-metrics-note { margin: 10px 0 0; color: #c9d1ec; font-size: 9px; line-height: 1.5; grid-column: 1 / -1; }
+.local-conversion-layout { display: block; padding-block: 32px; }
+.local-schools h2, .local-events h2 { font-size: 30px; }
+.local-section-description { font-size: 14px; }
+.local-school-track { display: flex; gap: 20px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 2px 0 10px; }
+.local-school-track::-webkit-scrollbar { display: none; }
+.local-school-track:focus-visible { outline: 3px solid #d9b62d; outline-offset: 4px; border-radius: 12px; }
+.local-school-card { flex: 0 0 calc((100% - 20px) / 2); scroll-snap-align: start; box-shadow: 0 4px 14px #0012420a; }
+.local-school-photo { height: 210px; }
+.local-school-body { padding: 18px 20px 20px; }
+.local-school-card h3 { font-size: 18px; min-height: 0; }
+.local-school-results li { font-size: 14px; grid-template-columns: 36px 1fr; gap: 8px; }
+.local-school-results strong { font-size: 26px; }
+.local-sample-badge { font-size: 10px; }
+.local-carousel-controls { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 8px; }
+.local-carousel-hint { margin: 0; font-size: 12px; color: #526285; }
+.local-carousel-buttons { display: flex; gap: 10px; }
+.local-carousel-arrow { width: 44px; height: 44px; border: 1px solid #cdd5e5; border-radius: 50%; color: #151e70; background: white; font-size: 23px; cursor: pointer; }
+.local-carousel-arrow:hover:not(:disabled) { background: #ffe969; border-color: #d8bd44; }
+.local-carousel-arrow:disabled { opacity: .35; cursor: default; }
+.local-carousel-arrow:focus-visible { outline: 3px solid #d9b62d; outline-offset: 3px; }
+.local-results-note { font-size: 11px; }
+.local-events { position: static; display: grid; grid-template-columns: 1fr 1.3fr; align-items: center; gap: 32px; margin-top: 30px; padding: 28px; }
+.local-event-button { width: max-content; margin-top: 20px; }
+.local-calendar iframe { height: 320px; }
+.local-bottom-consultation { background: #001242; padding-block: 44px; text-align: center; color: white; border-top: 5px solid #ffe969; }
+.local-bottom-consultation .local-section-eyebrow { color: #ffe969; }
+.local-bottom-consultation h2 { margin: 10px 0; font: 600 34px/1.2 Adelle, serif; color: white; }
+.local-bottom-consultation p:not(.local-section-eyebrow) { margin: 12px 0 22px; color: #dce3f2; font-size: 15px; }
+@media (max-width: 900px) {
+  .local-events { display: block; padding: 22px; }
+  .local-calendar { margin-top: 20px; }
+  .local-school-photo { height: 180px; }
+}
+@media (max-width: 600px) {
+  .local-school-track { gap: 14px; }
+  .local-school-card { flex-basis: 88%; }
+  .local-school-body { padding: 16px; }
+  .local-school-card h3 { font-size: 16px; }
+  .local-school-results li { font-size: 12px; }
+  .local-school-photo { height: 170px; }
+  .local-schools h2, .local-events h2 { font-size: 26px; }
+  .local-section-description { font-size: 12px; }
+  .local-calendar iframe { height: 360px; }
+  .local-bottom-consultation h2 { font-size: 28px; }
+  .local-event-button { width: 100%; }
+}

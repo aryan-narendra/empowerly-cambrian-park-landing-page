@@ -1,0 +1,14 @@
+{
+  "operationName": "ContentListing",
+  "variables": {
+    "families": [
+      "webinars"
+    ],
+    "limit": 3,
+    "page": 4,
+    "publishedBefore": "2026-10-05T04:18:09.690Z",
+    "startAfter": "2026-10-05T06:30:13.084Z",
+    "sort": "startAtAsc"
+  },
+  "query": "query ContentListing($families: [String!]!, $limit: Int!, $page: Int!, $taxonomySlug: String, $listingState: String, $publishedBefore: String, $startAfter: String, $onlineOnly: Boolean, $sort: String) {\n  contentListing(\n    families: $families\n    limit: $limit\n    page: $page\n    taxonomySlug: $taxonomySlug\n    listingState: $listingState\n    publishedBefore: $publishedBefore\n    startAfter: $startAfter\n    onlineOnly: $onlineOnly\n    sort: $sort\n  ) {\n    success\n    message\n    data {\n      items {\n        ...PublicContentEntryFields\n        __typename\n      }\n      total\n      page\n      limit\n      hasMore\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment PublicContentEntryFields on PublicContentEntry {\n  id\n  family\n  slug\n  canonicalPath\n  legacyPaths\n  title\n  teaser\n  teaserImage\n  cardEyebrow\n  cardMeta\n  cardCtaLabel\n  listingState\n  navVariant\n  footerVariant\n  navCta\n  body\n  seo\n  taxonomyTerms\n  publishedAt\n  lastPublishedAt\n  updatedAt\n  __typename\n}"
+}

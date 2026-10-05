@@ -1,0 +1,32 @@
+{
+  "palo-alto": {
+    "name": "Palo Alto",
+    "eyebrow": "Palo Alto · College admissions events",
+    "description": "Explore college admissions results from nearby schools and upcoming local events for Palo Alto families.",
+    "stats": [["500+", "Palo Alto students served"], ["98%", "5-year admit rate to a top 100 US college"], ["3", "Upcoming events in the original page"]],
+    "metrics_note": "Metrics retained from the original page capture; see the calendar for current events.",
+    "school_description": "Schools in and around Palo Alto. Admissions figures appear below each school.",
+    "sample_note": "Castilleja figures are invented sample data for this design. Other figures are retained from the original Empowerly page.",
+    "schools": [
+      {"name": "Palo Alto High School", "photo": "palo-alto.jpg", "alt": "Palo Alto High School campus and tower", "results": [[14, "Stanford University"], [9, "UC Berkeley"]], "source": "https://www.cde.ca.gov/schooldirectory/details?cdscode=43696414335782", "address": "50 Embarcadero Road, Palo Alto", "sample": false},
+      {"name": "Henry M. Gunn High School", "photo": "gunn.jpg", "alt": "Gunn High School entrance sign and campus", "results": [[11, "UC Berkeley"], [6, "MIT"]], "source": "https://gunn.pausd.org/", "sample": false},
+      {"name": "Menlo-Atherton High School", "photo": "menlo-atherton.jpg", "alt": "The front entrance of Menlo-Atherton High School", "results": [[8, "UCLA"], [5, "Harvard University"]], "source": "https://www.mabears.org/", "sample": false},
+      {"name": "Castilleja School", "photo": "castilleja.png", "alt": "Castilleja School entrance in Palo Alto", "results": [[7, "Stanford University"], [5, "UC Berkeley"]], "source": "https://www.castilleja.org/contact-us", "address": "1310 Bryant Street, Palo Alto", "sample": true}
+    ]
+  },
+  "cambrian-park": {
+    "name": "Cambrian Park",
+    "eyebrow": "Cambrian Park · South San Jose",
+    "description": "Explore college admissions results from nearby schools and upcoming local events for Cambrian Park families.",
+    "stats": [["500+", "Students served"], ["98%", "5-year admit rate to a top 100 US college"], ["3", "Upcoming local events"]],
+    "metrics_note": "Sample metrics: original Palo Alto figures shown as placeholders for this Cambrian Park draft.",
+    "school_description": "Four high schools in and around Cambrian Park and nearby South San Jose.",
+    "sample_note": "All admissions figures below are invented sample data for this page design, not verified Empowerly results or school-wide outcomes.",
+    "schools": [
+      {"name": "Branham High School", "photo": "branham.jpg", "alt": "Branham High School staff in the campus quad", "results": [[12, "UC Berkeley"], [8, "UCLA"]], "source": "https://branham.cuhsd.org/", "address": "1570 Branham Lane, San Jose", "sample": true},
+      {"name": "Leigh High School", "photo": "leigh.jpg", "alt": "Students and activities in the Leigh High School quad", "results": [[10, "UC San Diego"], [6, "USC"]], "source": "https://leigh.cuhsd.org/apps/pages/GeneralInformation", "address": "5210 Leigh Avenue, San Jose", "sample": true},
+      {"name": "Pioneer High School", "photo": "pioneer.jpg", "alt": "Pioneer High School front building and entrance sign", "results": [[9, "UC Davis"], [7, "UC Santa Barbara"]], "source": "https://pioneer.sjusd.org/about", "address": "1290 Blossom Hill Road, San Jose", "sample": true},
+      {"name": "Cambrian Academy", "photo": "cambrian-academy.jpg", "alt": "Cambrian Academy students gathering outdoors on campus", "results": [[4, "UC Berkeley"], [3, "Stanford University"]], "source": "https://cambrianacademy.org/highschool.html", "address": "4340 Almaden Expressway, San Jose", "sample": true}
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "operationName": "ActiveOperational",
+  "variables": {
+    "collection": "overlay-campaigns"
+  },
+  "query": "query ActiveOperational($collection: String!) {\n  activeOperational(collection: $collection) {\n    success\n    message\n    data {\n      id\n      collection\n      priority\n      startsAt\n      endsAt\n      data\n      __typename\n    }\n    __typename\n  }\n}"
+}

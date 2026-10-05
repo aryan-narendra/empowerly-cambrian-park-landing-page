@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+preview.png
+palo-alto-updated.png
+cambrian-park-mobile.png
+cambrian-park-preview.png
+github-repository.png

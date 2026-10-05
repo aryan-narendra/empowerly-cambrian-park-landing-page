@@ -1,0 +1,1022 @@
+{
+  "source": "https://empowerly.com/locations/palo-alto",
+  "captured_at": "2026-10-05T06:28:23.072123+00:00",
+  "assets": {
+    "https://cdn.empowerly.com/Empowerly-Logo-white-1.svg": {
+      "path": "assets/cdn/Empowerly-Logo-white-1.svg",
+      "bytes": 8596,
+      "content_type": "image/svg+xml"
+    },
+    "https://cdn.empowerly.com/fonts/v1/Adelle-Semibold.woff2": {
+      "path": "assets/cdn/fonts/v1/Adelle-Semibold.woff2",
+      "bytes": 65032,
+      "content_type": "font/woff2"
+    },
+    "https://cdn.empowerly.com/logos/nacac_cropped.webp": {
+      "path": "assets/cdn/logos/nacac_cropped.webp",
+      "bytes": 8374,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/logos/wacac_cropped.webp": {
+      "path": "assets/cdn/logos/wacac_cropped.webp",
+      "bytes": 11848,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/fonts/v1/Montserrat-VariableFont_wght.woff2": {
+      "path": "assets/cdn/fonts/v1/Montserrat-VariableFont_wght.woff2",
+      "bytes": 205672,
+      "content_type": "application/x-www-form-urlencoded"
+    },
+    "https://empowerly.com/_next/static/chunks/1545-15a3b6963a5d79ab.js": {
+      "path": "_next/static/chunks/1545-15a3b6963a5d79ab.js",
+      "bytes": 106721,
+      "content_type": "application/javascript"
+    },
+    "https://cdn.empowerly.com/fonts/v1/Montserrat-Italic-VariableFont_wght.woff2": {
+      "path": "assets/cdn/fonts/v1/Montserrat-Italic-VariableFont_wght.woff2",
+      "bytes": 221564,
+      "content_type": "font/woff2"
+    },
+    "https://empowerly.com/_next/static/chunks/1315-0dbc4135550c1647.js": {
+      "path": "_next/static/chunks/1315-0dbc4135550c1647.js",
+      "bytes": 46242,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/1496.d354aa5ede782f48.js": {
+      "path": "_next/static/chunks/1496.d354aa5ede782f48.js",
+      "bytes": 5119,
+      "content_type": "application/javascript"
+    },
+    "https://cdn.empowerly.com/fonts/v1/Satoshi-Regular.woff2": {
+      "path": "assets/cdn/fonts/v1/Satoshi-Regular.woff2",
+      "bytes": 25504,
+      "content_type": "font/woff2"
+    },
+    "https://empowerly.com/_next/static/chunks/1978-b6f99ecb005dad67.js": {
+      "path": "_next/static/chunks/1978-b6f99ecb005dad67.js",
+      "bytes": 8418,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/1875-f3dc396bf249e605.js": {
+      "path": "_next/static/chunks/1875-f3dc396bf249e605.js",
+      "bytes": 25313,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/1902-955b4ed19af6bd76.js": {
+      "path": "_next/static/chunks/1902-955b4ed19af6bd76.js",
+      "bytes": 174407,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/1715-3f209c771a7a9c49.js": {
+      "path": "_next/static/chunks/1715-3f209c771a7a9c49.js",
+      "bytes": 24953,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/3121.6af6b334c4c16d82.js": {
+      "path": "_next/static/chunks/3121.6af6b334c4c16d82.js",
+      "bytes": 35609,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/3254-320d1fedb957a7e9.js": {
+      "path": "_next/static/chunks/3254-320d1fedb957a7e9.js",
+      "bytes": 6086,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/2767.c4a4f617e4e2220a.js": {
+      "path": "_next/static/chunks/2767.c4a4f617e4e2220a.js",
+      "bytes": 8986,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/2448-f8d3bd50dfadcae9.js": {
+      "path": "_next/static/chunks/2448-f8d3bd50dfadcae9.js",
+      "bytes": 10272,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/3357-37f98d6f7c4b3b65.js": {
+      "path": "_next/static/chunks/3357-37f98d6f7c4b3b65.js",
+      "bytes": 20507,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/3315-fc1154a2c476d50a.js": {
+      "path": "_next/static/chunks/3315-fc1154a2c476d50a.js",
+      "bytes": 14129,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/3361-55b572b33d3129e3.js": {
+      "path": "_next/static/chunks/3361-55b572b33d3129e3.js",
+      "bytes": 15153,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/4520-807ff5a05f2c6dee.js": {
+      "path": "_next/static/chunks/4520-807ff5a05f2c6dee.js",
+      "bytes": 21606,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/5147-09b05586f3865080.js": {
+      "path": "_next/static/chunks/5147-09b05586f3865080.js",
+      "bytes": 5186,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/4306.a4e711e8261b036e.js": {
+      "path": "_next/static/chunks/4306.a4e711e8261b036e.js",
+      "bytes": 6524,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/3369-7145953db03df1cb.js": {
+      "path": "_next/static/chunks/3369-7145953db03df1cb.js",
+      "bytes": 51484,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/471.c394c9737991e64f.js": {
+      "path": "_next/static/chunks/471.c394c9737991e64f.js",
+      "bytes": 32121,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/5241-d5fd6e9253302055.js": {
+      "path": "_next/static/chunks/5241-d5fd6e9253302055.js",
+      "bytes": 8431,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/587-f906f9150e52848b.js": {
+      "path": "_next/static/chunks/587-f906f9150e52848b.js",
+      "bytes": 4962,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/5722-6fbf073a30802650.js": {
+      "path": "_next/static/chunks/5722-6fbf073a30802650.js",
+      "bytes": 9331,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/5869-8f989536668dfef8.js": {
+      "path": "_next/static/chunks/5869-8f989536668dfef8.js",
+      "bytes": 31821,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/5bf920d2-0d7e610222969725.js": {
+      "path": "_next/static/chunks/5bf920d2-0d7e610222969725.js",
+      "bytes": 180523,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/6361-7bf285356769f5bf.js": {
+      "path": "_next/static/chunks/6361-7bf285356769f5bf.js",
+      "bytes": 57493,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/7579.68388152f5ddf5cd.js": {
+      "path": "_next/static/chunks/7579.68388152f5ddf5cd.js",
+      "bytes": 23365,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/6467-18f99757412054e2.js": {
+      "path": "_next/static/chunks/6467-18f99757412054e2.js",
+      "bytes": 9809,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/788-1eeb3d77e7f86681.js": {
+      "path": "_next/static/chunks/788-1eeb3d77e7f86681.js",
+      "bytes": 125502,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/7744-5b218433846d50cd.js": {
+      "path": "_next/static/chunks/7744-5b218433846d50cd.js",
+      "bytes": 4574,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/8253-58b9763b024c9181.js": {
+      "path": "_next/static/chunks/8253-58b9763b024c9181.js",
+      "bytes": 8371,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/8183.69f54577905d704f.js": {
+      "path": "_next/static/chunks/8183.69f54577905d704f.js",
+      "bytes": 14561,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/8288.2221cab41a9cb558.js": {
+      "path": "_next/static/chunks/8288.2221cab41a9cb558.js",
+      "bytes": 2216,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/8456.3fb5290949f238e9.js": {
+      "path": "_next/static/chunks/8456.3fb5290949f238e9.js",
+      "bytes": 3926,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/8585.5d85c653520769f6.js": {
+      "path": "_next/static/chunks/8585.5d85c653520769f6.js",
+      "bytes": 4565,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/app/(marketing)/%5B...slug%5D/page-91263751d31b47ad.js": {
+      "path": "_next/static/chunks/app/(marketing)/[...slug]/page-91263751d31b47ad.js",
+      "bytes": 669,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/app/(marketing)/layout-178688199fa0ddb1.js": {
+      "path": "_next/static/chunks/app/(marketing)/layout-178688199fa0ddb1.js",
+      "bytes": 16652,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/app/layout-a158b1d721838b97.js": {
+      "path": "_next/static/chunks/app/layout-a158b1d721838b97.js",
+      "bytes": 8427,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/b0272364-55b89ce7929002c2.js": {
+      "path": "_next/static/chunks/b0272364-55b89ce7929002c2.js",
+      "bytes": 173024,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/app/not-found-fe3f04e3d4303761.js": {
+      "path": "_next/static/chunks/app/not-found-fe3f04e3d4303761.js",
+      "bytes": 6914,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/main-app-e99a39e07e883948.js": {
+      "path": "_next/static/chunks/main-app-e99a39e07e883948.js",
+      "bytes": 571,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/webpack-d922676152b57b9d.js": {
+      "path": "_next/static/chunks/webpack-d922676152b57b9d.js",
+      "bytes": 4231,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/da7a65d9-fc1dc6553314a9c2.js": {
+      "path": "_next/static/chunks/da7a65d9-fc1dc6553314a9c2.js",
+      "bytes": 107213,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/_next/static/chunks/polyfills-42372ed130431b0a.js": {
+      "path": "_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "bytes": 112594,
+      "content_type": "application/javascript"
+    },
+    "https://empowerly.com/empowerly-footer-logo.svg": {
+      "path": "empowerly-footer-logo.svg",
+      "bytes": 25781,
+      "content_type": "image/svg+xml"
+    },
+    "https://empowerly.com/_next/static/css/8bef2c495050a51c.css": {
+      "path": "_next/static/css/8bef2c495050a51c.css",
+      "bytes": 156137,
+      "content_type": "text/css"
+    },
+    "https://empowerly.com/empowerly-icon.png": {
+      "path": "empowerly-icon.png",
+      "bytes": 1377,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/fonts/v1/Adelle-Regular.woff2": {
+      "path": "assets/cdn/fonts/v1/Adelle-Regular.woff2",
+      "bytes": 65020,
+      "content_type": "font/woff2"
+    },
+    "https://empowerly.com/fonts/Montserrat-VariableFont_wght.woff2": {
+      "path": "fonts/Montserrat-VariableFont_wght.woff2",
+      "bytes": 205672,
+      "content_type": "binary/octet-stream"
+    },
+    "https://empowerly.com/fonts/Satoshi-Regular.woff2": {
+      "path": "fonts/Satoshi-Regular.woff2",
+      "bytes": 25504,
+      "content_type": "binary/octet-stream"
+    },
+    "https://empowerly.com/fonts/Adelle-Regular.woff2": {
+      "path": "fonts/Adelle-Regular.woff2",
+      "bytes": 65020,
+      "content_type": "binary/octet-stream"
+    },
+    "https://empowerly.com/fonts/Montserrat-Italic-VariableFont_wght.woff2": {
+      "path": "fonts/Montserrat-Italic-VariableFont_wght.woff2",
+      "bytes": 221564,
+      "content_type": "binary/octet-stream"
+    },
+    "https://empowerly.com/fonts/Adelle-Semibold.woff2": {
+      "path": "fonts/Adelle-Semibold.woff2",
+      "bytes": 65032,
+      "content_type": "binary/octet-stream"
+    },
+    "https://cdn.empowerly.com/Oct%2022-1000x563.webp": {
+      "path": "assets/cdn/Oct 22-1000x563.webp",
+      "bytes": 535638,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/5e1ba6ee-c817-47ed-93d1-3b92f7f5cc1f.png": {
+      "path": "assets/cdn/5e1ba6ee-c817-47ed-93d1-3b92f7f5cc1f.png",
+      "bytes": 200504,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Image-Placeholder-9.png": {
+      "path": "assets/cdn/Image-Placeholder-9.png",
+      "bytes": 9621,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2014%20(1)-1000x562.webp": {
+      "path": "assets/cdn/Oct 14 (1)-1000x562.webp",
+      "bytes": 160274,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%206.png": {
+      "path": "assets/cdn/Oct 6.png",
+      "bytes": 1643277,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/ben-g-1600x900.webp": {
+      "path": "assets/cdn/ben-g-1600x900.webp",
+      "bytes": 47592,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2029-1000x562.webp": {
+      "path": "assets/cdn/Oct 29-1000x562.webp",
+      "bytes": 72926,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2015-1000x562.webp": {
+      "path": "assets/cdn/Oct 15-1000x562.webp",
+      "bytes": 124954,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2027-600x338.webp": {
+      "path": "assets/cdn/Oct 27-600x338.webp",
+      "bytes": 333602,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/daniel-1600x1600.webp": {
+      "path": "assets/cdn/daniel-1600x1600.webp",
+      "bytes": 633424,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%208%20(1)-1000x562.webp": {
+      "path": "assets/cdn/Oct 8 (1)-1000x562.webp",
+      "bytes": 445686,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/ben-g-600x338.webp": {
+      "path": "assets/cdn/ben-g-600x338.webp",
+      "bytes": 15036,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2015%20(1)-400x400.webp": {
+      "path": "assets/cdn/Oct 15 (1)-400x400.webp",
+      "bytes": 7578,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2029%20(1)-600x337.webp": {
+      "path": "assets/cdn/Oct 29 (1)-600x337.webp",
+      "bytes": 89048,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%206%20(1)-400x400.webp": {
+      "path": "assets/cdn/Oct 6 (1)-400x400.webp",
+      "bytes": 14268,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2013%20(1)-600x337.webp": {
+      "path": "assets/cdn/Oct 13 (1)-600x337.webp",
+      "bytes": 91742,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2029-400x400.webp": {
+      "path": "assets/cdn/Oct 29-400x400.webp",
+      "bytes": 26430,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%207%20(1).png": {
+      "path": "assets/cdn/Oct 7 (1).png",
+      "bytes": 279712,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2013%20(1)-400x400.webp": {
+      "path": "assets/cdn/Oct 13 (1)-400x400.webp",
+      "bytes": 15384,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2015.png": {
+      "path": "assets/cdn/Oct 15.png",
+      "bytes": 1993596,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2020%20(1)-1000x562.webp": {
+      "path": "assets/cdn/Oct 20 (1)-1000x562.webp",
+      "bytes": 32698,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%207-1000x563.webp": {
+      "path": "assets/cdn/Oct 7-1000x563.webp",
+      "bytes": 521730,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2013-400x400.webp": {
+      "path": "assets/cdn/Oct 13-400x400.webp",
+      "bytes": 28536,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2022%20(1)-400x400.webp": {
+      "path": "assets/cdn/Oct 22 (1)-400x400.webp",
+      "bytes": 13068,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%208%20(1)-600x337.webp": {
+      "path": "assets/cdn/Oct 8 (1)-600x337.webp",
+      "bytes": 190332,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2015-400x400.webp": {
+      "path": "assets/cdn/Oct 15-400x400.webp",
+      "bytes": 49056,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2021%20(1)-400x400.webp": {
+      "path": "assets/cdn/Oct 21 (1)-400x400.webp",
+      "bytes": 11904,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2014.png": {
+      "path": "assets/cdn/Oct 14.png",
+      "bytes": 1958162,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2029%20(1)-600x338.webp": {
+      "path": "assets/cdn/Oct 29 (1)-600x338.webp",
+      "bytes": 15162,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2013%20(1)-600x338.webp": {
+      "path": "assets/cdn/Oct 13 (1)-600x338.webp",
+      "bytes": 16734,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2029%20(1).png": {
+      "path": "assets/cdn/Oct 29 (1).png",
+      "bytes": 306654,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2014-400x400.webp": {
+      "path": "assets/cdn/Oct 14-400x400.webp",
+      "bytes": 58958,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/ben-g-2560x1440.webp": {
+      "path": "assets/cdn/ben-g-2560x1440.webp",
+      "bytes": 88984,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2021-1000x563.webp": {
+      "path": "assets/cdn/Oct 21-1000x563.webp",
+      "bytes": 597542,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2027%20(1)-400x400.webp": {
+      "path": "assets/cdn/Oct 27 (1)-400x400.webp",
+      "bytes": 9348,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%206%20(1)-1000x562.webp": {
+      "path": "assets/cdn/Oct 6 (1)-1000x562.webp",
+      "bytes": 34420,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%207-400x400.webp": {
+      "path": "assets/cdn/Oct 7-400x400.webp",
+      "bytes": 20274,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/5e1ba6ee-c817-47ed-93d1-3b92f7f5cc1f-600x338.webp": {
+      "path": "assets/cdn/5e1ba6ee-c817-47ed-93d1-3b92f7f5cc1f-600x338.webp",
+      "bytes": 14968,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/daniel-1600x900.webp": {
+      "path": "assets/cdn/daniel-1600x900.webp",
+      "bytes": 49816,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%206-1000x562.webp": {
+      "path": "assets/cdn/Oct 6-1000x562.webp",
+      "bytes": 82846,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2020.png": {
+      "path": "assets/cdn/Oct 20.png",
+      "bytes": 1274345,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%207%20(1)-1000x562.webp": {
+      "path": "assets/cdn/Oct 7 (1)-1000x562.webp",
+      "bytes": 28584,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2029-1000x563.webp": {
+      "path": "assets/cdn/Oct 29-1000x563.webp",
+      "bytes": 617634,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2015%20(1).png": {
+      "path": "assets/cdn/Oct 15 (1).png",
+      "bytes": 383657,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%206%20(1)-600x338.webp": {
+      "path": "assets/cdn/Oct 6 (1)-600x338.webp",
+      "bytes": 18970,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%207%20(1)-600x338.webp": {
+      "path": "assets/cdn/Oct 7 (1)-600x338.webp",
+      "bytes": 16198,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2013%20(1)-1000x562.webp": {
+      "path": "assets/cdn/Oct 13 (1)-1000x562.webp",
+      "bytes": 177404,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2022%20(1)-1000x562.webp": {
+      "path": "assets/cdn/Oct 22 (1)-1000x562.webp",
+      "bytes": 33966,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2020-600x338.webp": {
+      "path": "assets/cdn/Oct 20-600x338.webp",
+      "bytes": 218974,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%208%20(1).png": {
+      "path": "assets/cdn/Oct 8 (1).png",
+      "bytes": 714808,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2015%20(1)-1000x562.webp": {
+      "path": "assets/cdn/Oct 15 (1)-1000x562.webp",
+      "bytes": 217694,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Image-Placeholder-9-154x156.webp": {
+      "path": "assets/cdn/Image-Placeholder-9-154x156.webp",
+      "bytes": 9814,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/ben-g.png": {
+      "path": "assets/cdn/ben-g.png",
+      "bytes": 2636132,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2021%20(1).png": {
+      "path": "assets/cdn/Oct 21 (1).png",
+      "bytes": 253839,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2014-1000x563.webp": {
+      "path": "assets/cdn/Oct 14-1000x563.webp",
+      "bytes": 868564,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/newseletter-overlay-header-400x400.webp": {
+      "path": "assets/cdn/newseletter-overlay-header-400x400.webp",
+      "bytes": 18516,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Brennan-400x400.webp": {
+      "path": "assets/cdn/Brennan-400x400.webp",
+      "bytes": 10308,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%206%20(1).png": {
+      "path": "assets/cdn/Oct 6 (1).png",
+      "bytes": 265844,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%207%20(1)-600x337.webp": {
+      "path": "assets/cdn/Oct 7 (1)-600x337.webp",
+      "bytes": 105158,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2027-1000x562.webp": {
+      "path": "assets/cdn/Oct 27-1000x562.webp",
+      "bytes": 145660,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%207-1000x562.webp": {
+      "path": "assets/cdn/Oct 7-1000x562.webp",
+      "bytes": 29822,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/5e1ba6ee-c817-47ed-93d1-3b92f7f5cc1f-400x400.webp": {
+      "path": "assets/cdn/5e1ba6ee-c817-47ed-93d1-3b92f7f5cc1f-400x400.webp",
+      "bytes": 16444,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2014-1000x562.webp": {
+      "path": "assets/cdn/Oct 14-1000x562.webp",
+      "bytes": 177918,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/daniel.png": {
+      "path": "assets/cdn/daniel.png",
+      "bytes": 1610288,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2020%20(1)-400x400.webp": {
+      "path": "assets/cdn/Oct 20 (1)-400x400.webp",
+      "bytes": 7470,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2022.png": {
+      "path": "assets/cdn/Oct 22.png",
+      "bytes": 1270859,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2020-400x400.webp": {
+      "path": "assets/cdn/Oct 20-400x400.webp",
+      "bytes": 13368,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2014%20(1)-400x400.webp": {
+      "path": "assets/cdn/Oct 14 (1)-400x400.webp",
+      "bytes": 7824,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2022%20(1)-600x337.webp": {
+      "path": "assets/cdn/Oct 22 (1)-600x337.webp",
+      "bytes": 91228,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Cassidy-600x338.webp": {
+      "path": "assets/cdn/Cassidy-600x338.webp",
+      "bytes": 13586,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/newseletter-overlay-header.png": {
+      "path": "assets/cdn/newseletter-overlay-header.png",
+      "bytes": 68460,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2020%20(1).png": {
+      "path": "assets/cdn/Oct 20 (1).png",
+      "bytes": 244955,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/daniel-600x338.webp": {
+      "path": "assets/cdn/daniel-600x338.webp",
+      "bytes": 13350,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Brennan.png": {
+      "path": "assets/cdn/Brennan.png",
+      "bytes": 275651,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2014-600x338.webp": {
+      "path": "assets/cdn/Oct 14-600x338.webp",
+      "bytes": 348162,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2014%20(1)-600x338.webp": {
+      "path": "assets/cdn/Oct 14 (1)-600x338.webp",
+      "bytes": 19390,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2020%20(1)-600x338.webp": {
+      "path": "assets/cdn/Oct 20 (1)-600x338.webp",
+      "bytes": 12210,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/newseletter-overlay-header-515x228.webp": {
+      "path": "assets/cdn/newseletter-overlay-header-515x228.webp",
+      "bytes": 62186,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%208%20(1)-600x338.webp": {
+      "path": "assets/cdn/Oct 8 (1)-600x338.webp",
+      "bytes": 32054,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2022%20(1)-600x338.webp": {
+      "path": "assets/cdn/Oct 22 (1)-600x338.webp",
+      "bytes": 18078,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2027-400x400.webp": {
+      "path": "assets/cdn/Oct 27-400x400.webp",
+      "bytes": 53390,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/ben-g-1600x1600.webp": {
+      "path": "assets/cdn/ben-g-1600x1600.webp",
+      "bytes": 974322,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2020-1000x562.webp": {
+      "path": "assets/cdn/Oct 20-1000x562.webp",
+      "bytes": 56904,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2020-1000x563.webp": {
+      "path": "assets/cdn/Oct 20-1000x563.webp",
+      "bytes": 551530,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2027%20(1)-1000x562.webp": {
+      "path": "assets/cdn/Oct 27 (1)-1000x562.webp",
+      "bytes": 146886,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Cassidy.png": {
+      "path": "assets/cdn/Cassidy.png",
+      "bytes": 140842,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2027%20(1)-600x337.webp": {
+      "path": "assets/cdn/Oct 27 (1)-600x337.webp",
+      "bytes": 92082,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/daniel-1000x1000.webp": {
+      "path": "assets/cdn/daniel-1000x1000.webp",
+      "bytes": 295864,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2015%20(1)-600x338.webp": {
+      "path": "assets/cdn/Oct 15 (1)-600x338.webp",
+      "bytes": 12080,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%206-400x400.webp": {
+      "path": "assets/cdn/Oct 6-400x400.webp",
+      "bytes": 27008,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2020%20(1)-600x337.webp": {
+      "path": "assets/cdn/Oct 20 (1)-600x337.webp",
+      "bytes": 85952,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2029-600x338.webp": {
+      "path": "assets/cdn/Oct 29-600x338.webp",
+      "bytes": 256082,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2027%20(1)-600x338.webp": {
+      "path": "assets/cdn/Oct 27 (1)-600x338.webp",
+      "bytes": 13798,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%206%20(1)-600x337.webp": {
+      "path": "assets/cdn/Oct 6 (1)-600x337.webp",
+      "bytes": 94152,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2021%20(1)-600x338.webp": {
+      "path": "assets/cdn/Oct 21 (1)-600x338.webp",
+      "bytes": 18588,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2013.png": {
+      "path": "assets/cdn/Oct 13.png",
+      "bytes": 1514332,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/ben-g-600x600.webp": {
+      "path": "assets/cdn/ben-g-600x600.webp",
+      "bytes": 203440,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/daniel-400x400.webp": {
+      "path": "assets/cdn/daniel-400x400.webp",
+      "bytes": 11580,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%208-600x338.webp": {
+      "path": "assets/cdn/Oct 8-600x338.webp",
+      "bytes": 266518,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2021.png": {
+      "path": "assets/cdn/Oct 21.png",
+      "bytes": 1434220,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2014%20(1).png": {
+      "path": "assets/cdn/Oct 14 (1).png",
+      "bytes": 275683,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%208.png": {
+      "path": "assets/cdn/Oct 8.png",
+      "bytes": 1510189,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/ben-g-1000x1000.webp": {
+      "path": "assets/cdn/ben-g-1000x1000.webp",
+      "bytes": 468438,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%208-400x400.webp": {
+      "path": "assets/cdn/Oct 8-400x400.webp",
+      "bytes": 31630,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2013-1000x563.webp": {
+      "path": "assets/cdn/Oct 13-1000x563.webp",
+      "bytes": 622056,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%207%20(1)-400x400.webp": {
+      "path": "assets/cdn/Oct 7 (1)-400x400.webp",
+      "bytes": 15568,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2021-1000x562.webp": {
+      "path": "assets/cdn/Oct 21-1000x562.webp",
+      "bytes": 72570,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/ben-g-1000x562.webp": {
+      "path": "assets/cdn/ben-g-1000x562.webp",
+      "bytes": 26294,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2027.png": {
+      "path": "assets/cdn/Oct 27.png",
+      "bytes": 1825009,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Brennan-600x338.webp": {
+      "path": "assets/cdn/Brennan-600x338.webp",
+      "bytes": 9600,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Cassidy-356x356.webp": {
+      "path": "assets/cdn/Cassidy-356x356.webp",
+      "bytes": 89982,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2027-1000x563.webp": {
+      "path": "assets/cdn/Oct 27-1000x563.webp",
+      "bytes": 819576,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%206-1000x563.webp": {
+      "path": "assets/cdn/Oct 6-1000x563.webp",
+      "bytes": 736894,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2015-1000x563.webp": {
+      "path": "assets/cdn/Oct 15-1000x563.webp",
+      "bytes": 898206,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2022-400x400.webp": {
+      "path": "assets/cdn/Oct 22-400x400.webp",
+      "bytes": 15158,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%208-1000x563.webp": {
+      "path": "assets/cdn/Oct 8-1000x563.webp",
+      "bytes": 639340,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2021%20(1)-600x337.webp": {
+      "path": "assets/cdn/Oct 21 (1)-600x337.webp",
+      "bytes": 85368,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2027%20(1).png": {
+      "path": "assets/cdn/Oct 27 (1).png",
+      "bytes": 242298,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2015%20(1)-600x337.webp": {
+      "path": "assets/cdn/Oct 15 (1)-600x337.webp",
+      "bytes": 107904,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/daniel-600x600.webp": {
+      "path": "assets/cdn/daniel-600x600.webp",
+      "bytes": 136798,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2021%20(1)-1000x562.webp": {
+      "path": "assets/cdn/Oct 21 (1)-1000x562.webp",
+      "bytes": 142604,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2022%20(1).png": {
+      "path": "assets/cdn/Oct 22 (1).png",
+      "bytes": 327036,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2029%20(1)-400x400.webp": {
+      "path": "assets/cdn/Oct 29 (1)-400x400.webp",
+      "bytes": 9178,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2022-600x338.webp": {
+      "path": "assets/cdn/Oct 22-600x338.webp",
+      "bytes": 219608,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2013%20(1).png": {
+      "path": "assets/cdn/Oct 13 (1).png",
+      "bytes": 312998,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%2014%20(1)-600x337.webp": {
+      "path": "assets/cdn/Oct 14 (1)-600x337.webp",
+      "bytes": 86852,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%207-600x338.webp": {
+      "path": "assets/cdn/Oct 7-600x338.webp",
+      "bytes": 211704,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%208%20(1)-400x400.webp": {
+      "path": "assets/cdn/Oct 8 (1)-400x400.webp",
+      "bytes": 27460,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2013-600x338.webp": {
+      "path": "assets/cdn/Oct 13-600x338.webp",
+      "bytes": 249960,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%208-1000x562.webp": {
+      "path": "assets/cdn/Oct 8-1000x562.webp",
+      "bytes": 81116,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2015-600x338.webp": {
+      "path": "assets/cdn/Oct 15-600x338.webp",
+      "bytes": 57526,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/daniel-1000x562.webp": {
+      "path": "assets/cdn/daniel-1000x562.webp",
+      "bytes": 25718,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2013-1000x562.webp": {
+      "path": "assets/cdn/Oct 13-1000x562.webp",
+      "bytes": 82790,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/ben-g-400x400.webp": {
+      "path": "assets/cdn/ben-g-400x400.webp",
+      "bytes": 21274,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2021-600x338.webp": {
+      "path": "assets/cdn/Oct 21-600x338.webp",
+      "bytes": 249614,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2029%20(1)-1000x562.webp": {
+      "path": "assets/cdn/Oct 29 (1)-1000x562.webp",
+      "bytes": 177664,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2029.png": {
+      "path": "assets/cdn/Oct 29.png",
+      "bytes": 1443958,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%207.png": {
+      "path": "assets/cdn/Oct 7.png",
+      "bytes": 1217941,
+      "content_type": "image/png"
+    },
+    "https://cdn.empowerly.com/Oct%206-600x338.webp": {
+      "path": "assets/cdn/Oct 6-600x338.webp",
+      "bytes": 311810,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Brennan-507x507.webp": {
+      "path": "assets/cdn/Brennan-507x507.webp",
+      "bytes": 230544,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/daniel-2560x1440.webp": {
+      "path": "assets/cdn/daniel-2560x1440.webp",
+      "bytes": 96622,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2021-400x400.webp": {
+      "path": "assets/cdn/Oct 21-400x400.webp",
+      "bytes": 29888,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/Oct%2022-1000x562.webp": {
+      "path": "assets/cdn/Oct 22-1000x562.webp",
+      "bytes": 34244,
+      "content_type": "image/webp"
+    },
+    "https://cdn.empowerly.com/5e1ba6ee-c817-47ed-93d1-3b92f7f5cc1f-512x512.webp": {
+      "path": "assets/cdn/5e1ba6ee-c817-47ed-93d1-3b92f7f5cc1f-512x512.webp",
+      "bytes": 133382,
+      "content_type": "image/webp"
+    }
+  },
+  "failures": []
+}

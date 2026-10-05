@@ -114,6 +114,15 @@ nav.sticky a[href="/consult"] { display: none; }
 .local-carousel-arrow:hover:not(:disabled) { background: #ffe969; border-color: #d8bd44; }
 .local-carousel-arrow:disabled { opacity: .35; cursor: default; }
 .local-carousel-arrow:focus-visible { outline: 3px solid #d9b62d; outline-offset: 3px; }
+.local-carousel-stage { position: relative; }
+.local-carousel-stage::before, .local-carousel-stage::after { content: ""; position: absolute; top: 0; height: 210px; width: 52px; z-index: 2; pointer-events: none; }
+.local-carousel-stage::before { left: 0; background: linear-gradient(90deg, #ffffffdd, #ffffff00); }
+.local-carousel-stage::after { right: 0; background: linear-gradient(270deg, #ffffffdd, #ffffff00); }
+.local-carousel-stage .local-carousel-arrow { position: absolute; top: calc(50% - 5px); transform: translateY(-50%); z-index: 3; width: 52px; height: 52px; border: 3px solid white; background: #151e70; color: white; font-size: 28px; font-weight: 700; box-shadow: 0 3px 14px #00124240; }
+.local-carousel-previous { left: -22px; }
+.local-carousel-next { right: -22px; }
+.local-carousel-stage .local-carousel-arrow:disabled { opacity: .65; }
+.local-carousel-stage .local-carousel-arrow:hover:not(:disabled) { background: #ffe969; color: #151e70; border-color: white; }
 .local-results-note { font-size: 11px; }
 .local-events { position: static; display: grid; grid-template-columns: 1fr 1.3fr; align-items: center; gap: 32px; margin-top: 30px; padding: 28px; }
 .local-event-button { width: max-content; margin-top: 20px; }
@@ -123,11 +132,16 @@ nav.sticky a[href="/consult"] { display: none; }
 .local-bottom-consultation h2 { margin: 10px 0; font: 600 34px/1.2 Adelle, serif; color: white; }
 .local-bottom-consultation p:not(.local-section-eyebrow) { margin: 12px 0 22px; color: #dce3f2; font-size: 15px; }
 @media (max-width: 900px) {
+  .local-carousel-stage::before, .local-carousel-stage::after { height: 180px; }
   .local-events { display: block; padding: 22px; }
   .local-calendar { margin-top: 20px; }
   .local-school-photo { height: 180px; }
 }
 @media (max-width: 600px) {
+  .local-carousel-stage::before, .local-carousel-stage::after { width: 30px; height: 170px; }
+  .local-carousel-stage .local-carousel-arrow { width: 44px; height: 44px; font-size: 24px; }
+  .local-carousel-previous { left: 2px; }
+  .local-carousel-next { right: 2px; }
   .local-school-track { gap: 14px; }
   .local-school-card { flex-basis: 88%; }
   .local-school-body { padding: 16px; }
